@@ -1,0 +1,130 @@
+/* Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+nav {
+    max-width: 1140px;
+    height: 6rem;
+    background: #ffa502;
+    margin: auto;
+    
+}
+
+nav .nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 100%;
+    color: #fff;
+}
+
+nav .nav-section .nav-header {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+nav .nav-section ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+nav .nav-section ul li {
+    background: #fff;
+    color: #ffa502;
+    padding: 0.2rem 0.6rem;
+}
+
+.product-section {
+    max-width: 1140px;
+    /* height: 80vh; */
+    background: #2f3542;
+    margin: auto;
+    padding: 2rem;
+}
+
+.product-section .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.product-section .card {
+    background: #fff;
+    width: 20rem;
+    height: 30rem;
+
+}
+
+
+.product-section .card .image {
+    width: 20rem;
+    padding: 1rem 1rem;
+}
+
+.product-section .card .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Selected Product page style */
+
+.selected-product-container {
+    max-width: 1140px;
+    /* height: 80vh; */
+    background: #2f3542;
+    margin: auto;
+    padding: 2rem;
+    color: #fff;
+
+    
+}
+
+.selected-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    
+    
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.inner-container .product span {
+    display: inline-block;
+}
+
+
+.product img {
+    width: 150px;
+    border-radius: 30%;
+    border: 3px solid greenyellow;
+}
